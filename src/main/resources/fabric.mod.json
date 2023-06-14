@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "idc",
+  "version": "${version}",
+  "name": "IDC",
+  "description": "Sceience and Tech stuff, you can be fucking overpowered, but in a balanced way",
+  "authors": [
+    "Sebsa"
+  ],
+  "contact": {
+    "repo": "https://github.com/Spellbook-Studios/IDC"
+  },
+  "license": "Copyright (c) Sebastian S. Snoer All-Rights-Reserved",
+  "icon": "assets/IDC/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dk.sebsa.idc.client.IDCClient"
+    ],
+    "main": [
+      "dk.sebsa.idc.IDC"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
